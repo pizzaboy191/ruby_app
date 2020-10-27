@@ -1,5 +1,6 @@
 # ruby_app
 A ruby script for parsing log files
+
 Recevies a log as an argument - e.g webserver.log
 
 /help_page/1 126.318.035.038
@@ -12,22 +13,14 @@ Recevies a log as an argument - e.g webserver.log
 /about 061.945.150.735
 /help_page/1 646.865.545.408
 /home 235.313.352.950
-/contact 184.123.665.067
-/help_page/1 543.910.244.929
-/home 316.433.849.805
-/about/2 444.701.448.104
-/contact 543.910.244.929
-/about 126.318.035.038
-/about/2 836.973.694.403
-/index 316.433.849.805
-/index 802.683.925.780
+
 
 Returns the following:
 
-> list of webpages with most page views ordered from most pages views to less page views 
+list of webpages with most page views ordered from most pages views to less page views 
 e.g.:
 /home 90 visits /index 80 visits etc... 
 
-> list of webpages with most unique page views also ordered
+list of webpages with most unique page views also ordered
 e.g.:
 /about/2 8 unique views /index 5 unique views etc.
