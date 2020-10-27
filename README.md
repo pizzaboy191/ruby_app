@@ -1,6 +1,6 @@
 # ruby_app
 A ruby script for parsing log files
-Takes a set of logs e.g 
+Recevies a log as an argument - e.g webserver.log
 
 /help_page/1 126.318.035.038
 /contact 184.123.665.067
@@ -22,4 +22,12 @@ Takes a set of logs e.g
 /index 316.433.849.805
 /index 802.683.925.780
 
-Outputs the most viewed ips and uniqie ips; sorted in descending order. 
+Returns the following:
+
+> list of webpages with most page views ordered from most pages views to less page views 
+e.g.:
+/home 90 visits /index 80 visits etc... 
+
+> list of webpages with most unique page views also ordered
+e.g.:
+/about/2 8 unique views /index 5 unique views etc.
