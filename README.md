@@ -1,4 +1,4 @@
-# ruby_app
+# LogParser
 A ruby script for parsing log files
 
 Recevies a log as an argument - e.g webserver.log
